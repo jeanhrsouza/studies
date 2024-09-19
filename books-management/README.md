@@ -1,44 +1,43 @@
-## Descrição do Problema:
-Você foi contratado para desenvolver um sistema simples de gerenciamento de livros para uma pequena biblioteca. Sua tarefa é criar uma classe chamada <span style="color:green">Livro</span>, que será usada para representar os livros disponíveis na biblioteca. Cada livro tem algumas características importantes (atributos) e deve realizar algumas ações básicas (métodos).
+## Problem Description:
+You were hired to develop a simple book management system for a small library. Your task is to create a class called **Book**, which will be used to represent the books available in the library. Each book has some important characteristics (attributes) and should perform some basic actions (methods).
+
+## Requirements:
+### Book Class Attributes:
+- Title (<span style="color:green">title</span>): The name of the book.
+
+- Author (<span style="color:green">author</span>): The name of the book's author.
+
+- Year of Publication (<span style="color:green">yearPublished</span>): The year the book was published.
+
+- Genre (<span style="color:green">genre</span>): The literary genre of the book (e.g., Fiction, Non-fiction, Fantasy, etc.).
+
+- Available (<span style="color:green">available</span>): A boolean attribute that indicates if the book is available for loan (true) or if it has already been loaned out (false).
 
 
-## Requisitos:
-### Atributos da Classe Livro:
-- Título (<span style="color:green">titulo</span>): O nome do livro.
-  
-- Autor (<span style="color:green">autor</span>): O nome do autor do livro.
-  
-- Ano de Publicação (<span style="color:green">anoPublicacao</span>): O ano em que o livro foi publicado.
-  
-- Gênero (<span style="color:green">genero</span>): O gênero literário do livro (por exemplo, Ficção, Não-Ficção, Fantasia, etc.).
-  
-- Disponível (<span style="color:green">disponivel</span>): Um atributo booleano que indica se o livro está disponível para empréstimo (true) ou se já foi emprestado (false).
+### Methods of the **Book** Class:
+- Display Information (<span style="color:green">displayInformation()</span>): A method that displays all the book's information in the console.
+
+- Loan Book (<span style="color:green">loanBook()</span>): A method that changes the book's status to unavailable (available = false) if the book is still available.
+
+- Return Book (<span style="color:green">returnBook()</span>): A method that changes the book's status to available (available = true) when the book is returned.
 
 
-### Métodos da Classe <span style="color:green">Livro</span>:
-- Exibir Informações (<span style="color:green">exibirInformacoes()</span>): Um método que exibe todas as informações do livro no console.
-  
-- Emprestar Livro (<span style="color:green">emprestarLivro()</span>): Um método que muda o status do livro para indisponível (disponivel = false) se o livro ainda estiver disponível.
-  
-- Devolver Livro (<span style="color:green">devolverLivro()</span>): Um método que muda o status do livro para disponível (disponivel = true) quando o livro é devolvido.
+## Task:
+### Creation of the <span style="color:green">Book</span> Class:
+- Define the <span style="color:green">Book</span> class with the specified attributes.
+
+- Create a constructor that initializes all attributes when a new book is created.
 
 
-## Tarefa:
-### Criação da Classe <span style="color:green">Livro</span>:
-- Defina a classe <span style="color:green">Livro</span> com os atributos especificados.
-  
-- Crie um construtor que permita inicializar todos os atributos quando um novo livro é criado.
+### Method Implementation:
+- Implement the <span style="color:green">displayInformation()</span> method to show the book's details in the console.
+
+- Implement the <span style="color:green">loanBook()</span> method to change the book's availability status and indicate in the console that the book has been loaned.
+
+- Implement the <span style="color:green">returnBook()</span> method to change the book's availability status and indicate in the console that the book has been returned.
 
 
-### Implementação dos Métodos:
-- Implemente o método <span style="color:green">exibirInformacoes()</span> para mostrar no console os detalhes do livro.
-  
-- Implemente o método <span style="color:green">emprestarLivro()</span> para alterar o status de disponibilidade do livro e indicar no console que o livro foi emprestado.
-  
-- Implemente o método <span style="color:green">devolverLivro()</span> para alterar o status de disponibilidade do livro e indicar no console que o livro foi devolvido.
-  
+### Object Creation:
+- Create at least two <span style="color:green">Book</span> objects using the class you developed, each representing a different book.
 
-### Criação de Objetos:
-- Crie pelo menos dois objetos <span style="color:green">Livro</span> usando a classe que você desenvolveu, cada um representando um livro diferente.
-  
-- Utilize os métodos criados para exibir as informações dos livros, emprestar um dos livros e, em seguida, devolver o mesmo livro.
+- Use the methods created to display the information of the books, loan one of the books, and then return the same book.
