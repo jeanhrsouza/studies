@@ -1,0 +1,13 @@
+{
+  "name": "books-management",
+  "version": "1.0.0",
+  "description": "Você foi contratado para desenvolver um sistema simples de gerenciamento de livros para uma pequena biblioteca. Sua tarefa é criar uma classe chamada <span style=\"color:green\">Livro</span>, que será usada para representar os livros disponíveis na biblioteca. Cada livro tem algumas características importantes (atributos) e deve realizar algumas ações básicas (métodos).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
